@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.WindowsError'> [Error 193] %1 is not a valid Win32 application"
+p3
+sS'layer'
+p4
+S'C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\applications\\gui\\controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 03F6C140, file "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\applications\\gui\\controllers/default.py", line 8>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\applications\\gui\\controllers/default.py", line 8, in <module>\n    import pandas as pd\n  File "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\gluon\\custom_import.py", line 74, in custom_importer\n    modules_prefix, globals, locals, (itemname,), level)\n  File "applications\\gui\\modules\\pandas\\__init__.py", line 13, in <module>\n    __import__(dependency)\n  File "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\gluon\\custom_import.py", line 74, in custom_importer\n    modules_prefix, globals, locals, (itemname,), level)\n  File "applications\\gui\\modules\\numpy\\__init__.py", line 142, in <module>\n    from . import core\n  File "C:\\Users\\shivaprasad\\Desktop\\web2py_win\\web2py\\gluon\\custom_import.py", line 87, in custom_importer\n    return NATIVE_IMPORTER(name, globals, locals, fromlist, level)\n  File "applications\\gui\\modules\\numpy\\core\\__init__.py", line 23, in <module>\n    WinDLL(os.path.abspath(filename))\n  File "ctypes/__init__.py", line 365, in __init__\nWindowsError: [Error 193] %1 is not a valid Win32 application\n'
+p11
+s.

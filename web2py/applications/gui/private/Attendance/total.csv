@@ -1,0 +1,15 @@
+sid,subject,present,total,percentage
+1,CO,1,1,1
+1,Java,3,7,7
+1,Maths,1,7,7
+2,CO,1,1,1
+2,Java,3,7,7
+2,Maths,4,7,7
+2,OOPS,1,2,2
+10,Maths,2,7,7
+11,Maths,2,7,7
+12,Maths,1,7,7
+77,CO,1,1,1
+100,CO,1,1,1
+100,Java,2,7,7
+100,Maths,3,7,7

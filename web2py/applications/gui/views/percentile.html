@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+</head>
+
+<body>
+Dear Parents,
+
+Please find the Attendence Report
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Total Days</th>
+    <th>Present Days</th>
+    <th>Attendance Percentage</th>
+  </tr>
+{{for p in attenmail:}}
+  <tr>
+    <td align="center">{{=p.name}}</td>
+    <td align="center">{{=p.subject}}</td>
+    <td align="center">{{=p.total}}</td>
+    <td align="center">{{=p.present}}</td>
+    <td align="center">{{=p.percentage}}</td>
+  </tr>
+{{pass}}
+</table> 
+
+</body>
+</html>

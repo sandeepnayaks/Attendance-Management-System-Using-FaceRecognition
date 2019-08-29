@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+<html>
+<body>
+<center>
+<h1>Attendance Management System Using Face Recognition</h1>
+{{ if not auth.user:}}
+<a class="btn btn-primary" href="{{=URL('user/login')}}">Login</a>
+<a class="btn btn-primary" href="{{=URL('user/register')}}">Register</a>
+{{else:}}
+{{=form}}
+{{pass}}
+
+</center>
+
+</body>
+</html>
